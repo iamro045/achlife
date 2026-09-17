@@ -1,0 +1,34 @@
+:root {
+  /* Color: cool laboratory palette — not the warm cream/terracotta default */
+  --ink-900: #101b27;      /* deep navy-ink, dark surfaces & primary text */
+  --ink-700: #2c3e50;      /* secondary text on light */
+  --ink-500: #5b6b78;      /* muted text on light */
+  --paper-0: #f0f2ee;      /* cool pale surface, page background */
+  --paper-1: #e7eae4;      /* slightly deeper panel surface */
+  --line: #d4d9d1;         /* hairline borders on paper */
+  --line-dark: rgba(240, 242, 238, 0.16); /* hairline borders on ink */
+  --teal-600: #1f6f6b;     /* primary brand accent (reagent-glass teal) */
+  --teal-700: #17534f;
+  --amber-500: #c68a1d;    /* secondary accent (hazard-label amber) */
+  --amber-600: #a57214;
+  --teal-900: #10302c;     /* deep teal surface, used for the strength band */
+  --white: #ffffff;
+
+  /* Type */
+  --font-display: "Fraunces", ui-serif, Georgia, serif;
+  --font-body: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, SFMono-Regular, monospace;
+
+  /* Scale (major third-ish, tuned) */
+  --step-00: clamp(1rem, 0.96rem + 0.2vw, 1.0625rem);
+  --step-01: clamp(1.125rem, 1.06rem + 0.32vw, 1.3125rem);
+  --step-02: clamp(1.4rem, 1.28rem + 0.6vw, 1.75rem);
+  --step-03: clamp(1.9rem, 1.6rem + 1.4vw, 2.6rem);
+  --step-04: clamp(2.6rem, 2.1rem + 2.4vw, 3.8rem);
+
+  /* Layout */
+  --content-max: 1180px;
+  --gutter: clamp(1.25rem, 3vw, 3rem);
+  --radius-sm: 3px;
+  --radius-md: 6px;
+}
