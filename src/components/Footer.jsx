@@ -54,7 +54,7 @@ export default function Footer() {
 
       <div className="site-footer__bottom">
         <div className="wrap site-footer__bottom-row">
-          <p>Copyright &copy; {year} ACHLIFE Solutions Pvt Ltd. All rights reserved. Design and Developed by Groot Technologies</p>
+          <p>Copyright &copy; {year} ACHLIFE Solutions Pvt Ltd. All rights reserved. Design and Developed by Groott Technologies</p>
           <a
             href="https://www.linkedin.com/company/qualitroth-pharma/"
             target="_blank"
