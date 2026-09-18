@@ -7,10 +7,13 @@ export default function Footer() {
     <footer className="site-footer">
       <div className="wrap site-footer__grid">
         <div className="site-footer__brand">
-          <span className="navbar__wordmark" style={{ color: "var(--paper-0)" }}>
-            ACHLIFE
-            <span style={{ color: "rgba(240,242,238,0.6)" }}>Solutions Pvt Ltd</span>
-          </span>
+          <img
+            src="/logo-light.png"
+            alt="ACHLIFE Solutions Pvt Ltd"
+            className="site-footer__logo"
+            width="230"
+            height="92"
+          />
           <p>
             Manufacturing and supplying cGMP-compliant chemicals,
             intermediates and APIs to pharma partners worldwide.

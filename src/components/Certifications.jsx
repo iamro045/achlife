@@ -4,9 +4,9 @@ import Reveal from "./Reveal.jsx";
 function SealIcon() {
   return (
     <svg viewBox="0 0 64 64" fill="none" aria-hidden="true">
-      <circle cx="32" cy="32" r="22" stroke="#c68a1d" strokeWidth="1.4" />
-      <circle cx="32" cy="32" r="16" stroke="#f0f2ee" strokeWidth="1" opacity="0.5" />
-      <path d="M24 33.5 29 38.5 41 25.5" stroke="#f0f2ee" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <circle cx="32" cy="32" r="22" stroke="#00bf63" strokeWidth="1.4" />
+      <circle cx="32" cy="32" r="16" stroke="#f2f5f7" strokeWidth="1" opacity="0.5" />
+      <path d="M24 33.5 29 38.5 41 25.5" stroke="#f2f5f7" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
     </svg>
   );
 }

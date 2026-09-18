@@ -1,17 +1,17 @@
 :root {
   /* Color: cool laboratory palette — not the warm cream/terracotta default */
-  --ink-900: #101b27;      /* deep navy-ink, dark surfaces & primary text */
-  --ink-700: #2c3e50;      /* secondary text on light */
-  --ink-500: #5b6b78;      /* muted text on light */
-  --paper-0: #f0f2ee;      /* cool pale surface, page background */
-  --paper-1: #e7eae4;      /* slightly deeper panel surface */
-  --line: #d4d9d1;         /* hairline borders on paper */
+  --ink-900: #223945;      /* deep navy-ink, dark surfaces & primary text */
+  --ink-700: #3c5566;      /* secondary text on light */
+  --ink-500: #6b8290;      /* muted text on light */
+  --paper-0: #f2f5f7;      /* cool pale surface, page background */
+  --paper-1: #e6eaed;      /* slightly deeper panel surface */
+  --line: #d3dbe0;         /* hairline borders on paper */
   --line-dark: rgba(240, 242, 238, 0.16); /* hairline borders on ink */
-  --teal-600: #1f6f6b;     /* primary brand accent (reagent-glass teal) */
-  --teal-700: #17534f;
-  --amber-500: #c68a1d;    /* secondary accent (hazard-label amber) */
-  --amber-600: #a57214;
-  --teal-900: #10302c;     /* deep teal surface, used for the strength band */
+  --teal-600: #319dbc;     /* primary brand accent (reagent-glass teal) */
+  --teal-700: #2b7f99;
+  --cyan-500: #00afef;    /* logo bright cyan */
+  --green-500: #00bf63;
+  --teal-900: #1c4d5e;     /* deep teal surface, used for the strength band */
   --white: #ffffff;
 
   /* Type */

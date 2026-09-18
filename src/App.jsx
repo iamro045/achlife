@@ -6,6 +6,7 @@ import Certifications from "./components/Certifications.jsx";
 import Products from "./components/Products.jsx";
 import OurStrength from "./components/OurStrength.jsx";
 import ContractManufacturing from "./components/ContractManufacturing.jsx";
+import Leadership from "./components/Leadership.jsx";
 import Clients from "./components/Clients.jsx";
 import Blog from "./components/Blog.jsx";
 import SpecRequestForm from "./components/SpecRequestForm.jsx";
@@ -29,6 +30,7 @@ export default function App() {
         <Products />
         <OurStrength />
         <ContractManufacturing />
+        <Leadership />
         <Clients />
         <Blog />
         <SpecRequestForm />

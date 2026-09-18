@@ -6,21 +6,6 @@ const spyIds = navLinks
   .map((l) => l.href.replace("#", ""))
   .filter((id) => id !== "top");
 
-function MarkIcon() {
-  return (
-    <svg viewBox="0 0 48 48" className="navbar__mark" aria-hidden="true">
-      <circle cx="24" cy="24" r="23" fill="none" stroke="#1f6f6b" strokeWidth="1.5" />
-      <path d="M24 10 L34 16 V32 L24 38 L14 32 V16 Z" fill="none" stroke="#101b27" strokeWidth="1.5" />
-      <circle cx="24" cy="10" r="2.2" fill="#c68a1d" />
-      <circle cx="34" cy="16" r="2.2" fill="#1f6f6b" />
-      <circle cx="34" cy="32" r="2.2" fill="#1f6f6b" />
-      <circle cx="24" cy="38" r="2.2" fill="#c68a1d" />
-      <circle cx="14" cy="32" r="2.2" fill="#1f6f6b" />
-      <circle cx="14" cy="16" r="2.2" fill="#1f6f6b" />
-    </svg>
-  );
-}
-
 export default function Navbar() {
   const [open, setOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
@@ -76,12 +61,15 @@ export default function Navbar() {
 
       <nav className={`navbar ${scrolled ? "is-scrolled" : ""}`} aria-label="Main">
         <div className="wrap">
-          <a href="#top" className="navbar__brand" onClick={close}>
-            <MarkIcon />
-            <span className="navbar__wordmark">
-              ACHLIFE
-              <span>Solutions Pvt Ltd</span>
-            </span>
+          <a href="#top" className="navbar__brand" onClick={close} aria-label="ACHLIFE Solutions Pvt Ltd — home">
+            <img
+              src="/logo.png"
+              alt="ACHLIFE"
+              className="navbar__logo"
+              width="230"
+              height="92"
+            />
+            <span className="navbar__tagline">Solutions Pvt Ltd</span>
           </a>
 
           {/* Desktop links */}

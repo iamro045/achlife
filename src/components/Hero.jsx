@@ -6,11 +6,11 @@ function MoleculeFigure() {
   // characteristic image rather than a generic stock illustration.
   return (
     <svg viewBox="0 0 420 420" role="img" aria-label="Aromatic ring diagram of a benzaldehyde-family compound">
-      <g fill="none" stroke="#101b27" strokeWidth="1.6">
+      <g fill="none" stroke="#223945" strokeWidth="1.6">
         <polygon points="210,70 300,122 300,226 210,278 120,226 120,122" />
         <polygon
           points="210,96 278,135 278,213 210,252 142,213 142,135"
-          stroke="#1f6f6b"
+          stroke="#319dbc"
           strokeWidth="1"
           strokeDasharray="3 5"
         />
@@ -20,7 +20,7 @@ function MoleculeFigure() {
         <line x1="120" y1="226" x2="60" y2="260" />
         <line x1="210" y1="278" x2="210" y2="330" />
       </g>
-      <g fill="#101b27">
+      <g fill="#223945">
         <circle cx="210" cy="70" r="4.5" />
         <circle cx="300" cy="122" r="4.5" />
         <circle cx="300" cy="226" r="4.5" />
@@ -28,14 +28,14 @@ function MoleculeFigure() {
         <circle cx="120" cy="226" r="4.5" />
         <circle cx="120" cy="122" r="4.5" />
       </g>
-      <circle cx="360" cy="40" r="7" fill="#c68a1d" />
-      <circle cx="60" cy="88" r="7" fill="#1f6f6b" />
-      <circle cx="60" cy="260" r="7" fill="#1f6f6b" />
-      <circle cx="210" cy="330" r="7" fill="#c68a1d" />
-      <text x="373" y="35" fontFamily="IBM Plex Mono" fontSize="13" fill="#101b27">O</text>
-      <text x="30" y="83" fontFamily="IBM Plex Mono" fontSize="13" fill="#101b27">OH</text>
-      <text x="30" y="266" fontFamily="IBM Plex Mono" fontSize="13" fill="#101b27">NO₂</text>
-      <text x="196" y="354" fontFamily="IBM Plex Mono" fontSize="13" fill="#101b27">H</text>
+      <circle cx="360" cy="40" r="7" fill="#00bf63" />
+      <circle cx="60" cy="88" r="7" fill="#319dbc" />
+      <circle cx="60" cy="260" r="7" fill="#319dbc" />
+      <circle cx="210" cy="330" r="7" fill="#00bf63" />
+      <text x="373" y="35" fontFamily="IBM Plex Mono" fontSize="13" fill="#223945">O</text>
+      <text x="30" y="83" fontFamily="IBM Plex Mono" fontSize="13" fill="#223945">OH</text>
+      <text x="30" y="266" fontFamily="IBM Plex Mono" fontSize="13" fill="#223945">NO₂</text>
+      <text x="196" y="354" fontFamily="IBM Plex Mono" fontSize="13" fill="#223945">H</text>
       <text
         x="210"
         y="400"

@@ -9,10 +9,10 @@ function PostGlyph({ seed }) {
   const a = angles[seed % angles.length];
   return (
     <svg viewBox="0 0 200 120" preserveAspectRatio="none" aria-hidden="true">
-      <rect width="200" height="120" fill="#e7eae4" />
-      <line x1="0" y1={a} x2="200" y2={a + 14} stroke="#1f6f6b" strokeWidth="1" opacity="0.55" />
-      <line x1="0" y1={a + 30} x2="200" y2={a + 10} stroke="#101b27" strokeWidth="1" opacity="0.25" />
-      <circle cx={40 + seed * 45} cy="60" r="26" fill="none" stroke="#c68a1d" strokeWidth="1.2" />
+      <rect width="200" height="120" fill="#e6eaed" />
+      <line x1="0" y1={a} x2="200" y2={a + 14} stroke="#319dbc" strokeWidth="1" opacity="0.55" />
+      <line x1="0" y1={a + 30} x2="200" y2={a + 10} stroke="#223945" strokeWidth="1" opacity="0.25" />
+      <circle cx={40 + seed * 45} cy="60" r="26" fill="none" stroke="#00bf63" strokeWidth="1.2" />
     </svg>
   );
 }
